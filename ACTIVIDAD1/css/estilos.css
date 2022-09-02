@@ -1,0 +1,195 @@
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #000;
+	}
+
+#contenedor {
+	width:960px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 15px;
+	}
+
+header {
+	height:580px;
+	}
+
+h1 {
+	margin:0 0 0 40px;
+	font-size:36px;
+	}
+
+h2 {
+	font-size:24px;
+	margin: 0 0 0 40px;
+}
+
+a {
+	color:#80C141;
+	text-decoration:none;
+	}
+#botonera_principal {
+	width:940px;
+	height:70px;
+	border-left: 20px solid #0E4791;
+	background-color:#FFF;
+	display: flex;
+	border-radius: 8px 8px 0px 0px;
+	}
+
+#botonera_principal ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;}
+
+#botonera_principal ul li {
+	display: inline;
+}
+
+#botonera_principal ul li a {
+	display: inline-block;
+	color:#333;
+	text-decoration:none;
+	text-align: center;
+	border-right:1px dotted #CCC;
+	width: 187px;
+	height: 70px;
+	line-height: 70px;
+	}
+	
+#botonera_principal ul li a:hover {
+	background-color:#0E4791;
+	color: #CCC;
+	}
+	
+.titulo{
+	color: #040615;
+}
+#marca {
+	background-image:url('../imagenes/pol.jpg');
+	background-size: cover;
+	height:500px;
+	padding-top:27px;
+	border-left:solid 20px #333;
+
+	}
+
+#contenido {
+	height: auto;
+	padding:20px;
+	background-color:#FFF;
+	border-left: 20px solid #0E4791;
+	overflow: hidden;
+	
+	
+	}
+footer {
+	background-color:#0E4791;
+	padding:20px;
+	border-left: 20px solid #333;
+	border-radius: 0 0 8px 8px;
+
+	}
+
+footer a {
+	color:#FFF;
+	font-weight:bold;}
+
+/*DESCRIPCION*/
+#producto{
+	border: #000;
+	display: flow-root;
+	margin: 10px auto;
+	padding: 10px ;
+	background: #f7f7f7;
+	border-radius: 8px;
+	border-left: 8px solid #0E4791;
+	color: #333333;
+	box-shadow: 5px 5px 10px;
+
+}
+
+#descripcion {
+	width: 700px;
+	float: right;
+}
+
+#imagen {
+	float: left;
+}
+#imagen img{
+	width: 150px;
+}
+/*FORMULARIO*/
+
+form {
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 10px ;
+  background: #f7f7f7;
+  border-radius: 8px;
+  border-left: 8px solid #0E4791;
+  color: #333333;
+  box-shadow: 5px 5px 10px;
+}
+
+form li {
+	list-style-type: none;
+}
+
+input , textarea {
+  border: none;
+  font-size: 12px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 400px;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 gray inset;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.boton 
+{
+  padding: 10px;
+  color: #FFF;
+  background: #0E4791;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 430px;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 inset;
+  margin-bottom: 10px;
+}
+
+.boton:hover{
+	background: #2e588f;
+}
+
+.number {
+  background: #E8EEEF;
+  color: #8a97a0;
+  height: auto;
+  width: 50px;
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.mensaje {
+	color: #fff;
+	background-color: #80C141;
+	padding: 10px;
+	margin: 0 30%;
+	border-radius: 8px;
+	text-align: center;
+}
